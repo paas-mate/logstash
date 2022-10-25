@@ -1,4 +1,4 @@
-FROM ttbb/base
+FROM ttbb/base:jdk11
 
 WORKDIR /opt/sh
 
