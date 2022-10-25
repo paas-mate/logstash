@@ -6,9 +6,9 @@ ENV LOGSTASH_HOME /opt/sh/logstash
 
 ARG TARGETARCH
 
-ARG amd_download=7.17.5-linux-x86_64
+ARG amd_download=8.4.3-linux-x86_64
 
-ARG arm_download=7.17.5-linux-aarch64
+ARG arm_download=8.4.3-linux-aarch64
 
 RUN if [[ "$TARGETARCH" = "amd64" ]]; \
     then download=$amd_download; \
